@@ -1,1 +1,1 @@
-# CryptoCopulaVaRES
+# CryptoCopVaRES
