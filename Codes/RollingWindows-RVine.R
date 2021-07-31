@@ -1,6 +1,6 @@
 ##### Rolling Windows: VaR 7 cryptocurrencias
-##### Carlos Truc??os and Aviral K. Tiwari
-##### GAS-Skew-T
+##### Carlos Trucios et al. (2020)
+##### GAS
 
 #### Load packages:
 library(GAS)
@@ -82,6 +82,6 @@ for (j in 1:WR){
 }
 
 
-write.table(data.frame(VaR),"VaRGASRVine2_sstd.txt",sep=",",dec=".",col.names=FALSE,row.names = FALSE)
-write.table(data.frame(ES),"ESGASRVine2_sstd.txt",sep=",",dec=".",col.names=FALSE,row.names = FALSE)
+write.table(data.frame(VaR),"VaRGASRVine_sstd.txt",sep=",",dec=".",col.names=FALSE,row.names = FALSE)
+write.table(data.frame(ES),"ESGASRVine_sstd.txt",sep=",",dec=".",col.names=FALSE,row.names = FALSE)
 

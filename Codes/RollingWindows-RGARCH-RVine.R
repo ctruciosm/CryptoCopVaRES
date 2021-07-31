@@ -1,6 +1,6 @@
 ##### Rolling Windows: VaR 7 cryptocurrencias
-##### Carlos Truc??os and Aviral K. Tiwari
-##### GAS-Skew-T
+##### Carlos Trucios et al. (2020)
+##### Robust GARCH
 
 #### Load packages:
 library(GAS)
@@ -84,5 +84,5 @@ for (j in 1:WR){
   obport[j] = mean(as.numeric(retornos[j+L,]))
 }
 
-write.table(data.frame(VaR),"VaRRGARCH2RVine2.txt",sep=",",dec=".",col.names=FALSE,row.names = FALSE)
-write.table(data.frame(ES),"ESRGARCH2RVine2.txt",sep=",",dec=".",col.names=FALSE,row.names = FALSE)
+write.table(data.frame(VaR),"VaRRGARCH2RVine_sged.txt",sep=",",dec=".",col.names=FALSE,row.names = FALSE)
+write.table(data.frame(ES),"ESRGARCH2RVine_sged.txt",sep=",",dec=".",col.names=FALSE,row.names = FALSE)
