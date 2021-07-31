@@ -6,7 +6,7 @@ This repository contains the data and codes used in Trucíos et al. (2020). Feel
 After the publication of the paper, I submitted the R package **RobGARCHBoot** (Trucíos, 2020) where the robust GARCH estimator used in the paper is implemented (I did some improvements in the optimization of the robust procedure, so the results could be not exactly equal as in the paper but qualitatively the results should be the same).
 
 
-> Some lines of the code should be changed manually according to the distribution used.
+> Some lines of code should be changed manually according to the distribution used.
 
 >> The CDVine package (used to perform the DVine copula) is no longer available on CRAN. 
 
